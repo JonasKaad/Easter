@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jonaskaad.easter.PrimaryController">
+   <children>
+      <HBox alignment="CENTER" layoutX="20.0" layoutY="20.0" prefHeight="329.0" prefWidth="900.0" spacing="20.0">
+         <children>
+            <HBox prefWidth="300.0" spacing="4.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" spacing="80.0">
+                     <children>
+                        <Button fx:id="backButton1_1" maxHeight="20.0" maxWidth="40.0" mnemonicParsing="false" onAction="#buttonHandlerEggOne" prefHeight="40.0" prefWidth="40.0" translateY="40.0" />
+                        <Button fx:id="backButton1_2" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggOne" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                        <Button fx:id="backButton1_3" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggOne" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="441.0" prefWidth="220.0">
+                     <children>
+                        <ImageView fx:id="imageView1_top" fitHeight="150.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true" translateY="1.0">
+                           <image>
+                              <Image url="@images/Egg1_1.png" />
+                           </image></ImageView>
+                        <ImageView fx:id="imageView1_middle" fitHeight="150.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Egg1_2.png" />
+                           </image></ImageView>
+                        <ImageView fx:id="imageView1_bottom" fitHeight="150.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true" translateY="-1.0">
+                           <image>
+                              <Image url="@images/Egg1_3.png" />
+                           </image></ImageView>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" spacing="80.0">
+                     <children>
+                        <Button fx:id="nextButton1_1" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggOne" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                        <Button fx:id="nextButton1_2" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggOne" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                        <Button fx:id="nextButton1_3" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggOne" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefWidth="300.0" spacing="4.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" spacing="80.0">
+                     <children>
+                        <Button fx:id="backButton2_1" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggTwo" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                        <Button fx:id="backButton2_2" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggTwo" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                        <Button fx:id="backButton2_3" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggTwo" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="441.0" prefWidth="220.0">
+                     <children>
+                        <ImageView fx:id="imageView2_top" fitHeight="150.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true" translateY="1.0">
+                           <image>
+                              <Image url="@images/Egg1_1.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="imageView2_middle" fitHeight="150.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Egg1_2.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="imageView2_bottom" fitHeight="150.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true" translateY="-1.0">
+                           <image>
+                              <Image url="@images/Egg1_3.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" spacing="80.0">
+                     <children>
+                        <Button fx:id="nextButton2_1" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggTwo" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                        <Button fx:id="nextButton2_2" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggTwo" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                        <Button fx:id="nextButton2_3" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggTwo" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <HBox prefWidth="300.0" spacing="4.0">
+               <children>
+                  <VBox prefHeight="200.0" prefWidth="100.0" spacing="80.0">
+                     <children>
+                        <Button fx:id="backButton3_1" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggThree" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                        <Button fx:id="backButton3_2" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggThree" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                        <Button fx:id="backButton3_3" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggThree" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="441.0" prefWidth="220.0">
+                     <children>
+                        <ImageView fx:id="imageView3_top" fitHeight="150.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true" translateY="1.0">
+                           <image>
+                              <Image url="@images/Egg1_1.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="imageView3_middle" fitHeight="150.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@images/Egg1_2.png" />
+                           </image>
+                        </ImageView>
+                        <ImageView fx:id="imageView3_bottom" fitHeight="150.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true" translateY="-1.0">
+                           <image>
+                              <Image url="@images/Egg1_3.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0" spacing="80.0">
+                     <children>
+                        <Button fx:id="nextButton3_1" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggThree" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                        <Button fx:id="nextButton3_2" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggThree" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                        <Button fx:id="nextButton3_3" maxHeight="20.0" maxWidth="30.0" mnemonicParsing="false" onAction="#buttonHandlerEggThree" prefHeight="20.0" prefWidth="30.0" translateY="40.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="400.0" layoutY="407.0" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" text="Easter!" textAlignment="CENTER">
+               <font>
+                  <Font name="Roboto" size="40.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
