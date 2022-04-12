@@ -3,6 +3,7 @@ package com.jonaskaad.easter;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 import java.io.IOException;
 import org.kordamp.bootstrapfx.BootstrapFX;
@@ -15,7 +16,9 @@ public class App extends Application {
         scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
         stage.setTitle("PROSA - Easter");
         stage.setScene(scene);
+        stage.setResizable(false);
         stage.show();
+        stage.getIcons().add(new Image(this.getClass().getResourceAsStream("egg-icon.png")));
     }
 
     public static void main(String[] args) {
